@@ -95,6 +95,7 @@ Search Area
 
 #search-area {
   margin-top: 5rem;
+
 }
 
 .logo {
@@ -193,4 +194,39 @@ footer a {
   color: #707579;
   padding: 0 10px;
   font-size: 14px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  input {
+width: 90%;
+
+}
+
+.magnify-glass {
+  position: absolute;
+  left: 10%;
+}
+
+.microphone {
+  position: absolute;
+  left: 86%;
+
+}
+
+.camera {
+  position: absolute;
+  left: 79%;
+
+}
+
+footer {
+flex-direction: column;
+}
+
+footer ul {
+  padding: 7px 0px;
+}
+
 }
